@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Footer CSS */
+.footer-text{
+    padding: 5px;
+    bottom: 0%;
+    width: 100%;
+    background-color: #ff4757;
+    color: aliceblue;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+/* Main LOgin CSS */
+.main-container{
+    text-align: center;
+    border: 2px solid black;
+    width: 30%;
+    height: 40%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    line-height: 5rem;
+    padding: 2%;
+    font-size: larger;
+}
+
+/* login btn css  */
+.login-btn{
+    border: none;
+    border-radius: 3px;
+    padding: 2%;
+    font-size: large;
+    color: aliceblue;
+    background-color: #ff4757;
+}
+
+.login-btn:hover{
+    border: none;
+    border-radius: 3px;
+    padding: 2%;
+    font-size: large;
+    color: aliceblue;
+    background-color: #de2e3c;
+    cursor: pointer;
+}

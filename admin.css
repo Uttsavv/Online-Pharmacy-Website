@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* 
+body{
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+} */
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    border: 2px solid black;
+}
+
+/* Main Menu CSS */
+.menu{
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    border-bottom: 2px solid rgb(3, 3, 3);
+}
+
+.menu ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 2%;
+}
+
+.menu a{
+    font-weight: bolder;
+    font-size: 25px;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    color: #FF1B3D;
+}
+
+.menu a:hover{
+    color: #ff4757;
+    text-decoration: underline;
+}
+
+/* Main Content CSS  */
+.main-content{
+    margin:auto;
+    width: 80%;
+}
+.main-content h2{
+    text-align: left;
+}
+.main-content-boxes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-4{
+    line-height: 150px;
+    text-align: center;
+    display: inline-block;
+    /* border: 1px solid red; */
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 300px;
+    margin: 1%;
+}
+
+
+/* Footer Section  */
+
+.footer-text{
+    padding: 5px;
+    bottom: 0%;
+    width: 100%;
+    background-color: #ff4757;
+    color: aliceblue;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+/* Admin Page Table  */
+table{
+    width: 100%;
+    font-size: 20px;
+}
+
+table th{
+    border-bottom: 2px solid black;
+    padding: 2%;
+    text-align: left;
+}
+
+table td{
+    padding: 2%;
+    text-align: left;
+}
+
+/* Admin Page Buttons */
+.button-box{
+    margin: 1% 0;
+}
+
+.btn-primary{
+    text-decoration: none;
+    background-color: #1e90ff;
+    color: white;
+    padding: 1%;
+}
+
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+/* Buttons inside table  */
+.btn-secondary{
+    text-decoration: none;
+    background-color: #53d67d;
+    color: white;
+    padding: 1%;
+}
+
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-danger{
+    text-decoration: none;
+    background-color: #ff6b81;
+    color: white;
+    padding: 1%;
+}
+
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+.btn-change{
+    text-decoration: none;
+    background-color: #5352ed;
+    color: white;
+    padding: 1%;
+}
+
+.btn-change:hover{
+    background-color: #3742fa;
+}
+
+/* Add Admin Form  */
+.add-admin-form{
+    margin: 1%;
+    padding: 1%;
+    font-size: 20px;
+}
+.add-form{
+    margin: 1%;
+    padding: 1%;
+    font-size: 20px;
+}
+
+.add-admin-form input{
+    margin-left: 1%;
+    padding: 5px;
+}
+
+.add-form input{
+    margin-left: 1%;
+    padding: 5px;
+}
+
+/* Submit Btn in Add-admin page  */
+button{
+    border: none;
+    padding:2%;
+}
+button:hover{
+    cursor: pointer;
+}
+
+/* Fail Message  */
+.fail-message{
+    color: black;
+    border-bottom: #FF1B3D;
+}
